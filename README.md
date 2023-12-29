@@ -22,3 +22,6 @@ The Cookie will need to be retrieved from the developer tools. Open them up (pre
 ## Your First Request
 In your command line, run the following code: 
 ```python empower-transaction-retrieval.py -s "01-JAN-2023" -e "01-FEB-2023"```
+
+# Contributing
+This was a project meant to serve my own needs. Currently, I don't plan to make many updates to this. That said, please don't hesitate to submit issues and PRs and I will try my best to provide updates when I can! 
