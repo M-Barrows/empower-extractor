@@ -141,5 +141,7 @@ if __name__ == '__main__':
         print(args.overwrite)
         if args.overwrite:
             df.to_csv(args.output_file_name,sep=',',index=False,mode="w")
+        elif input("Output file already exists. Overwrite? [y/N]")=="y":
+            df.to_csv(args.output_file_name,sep=',',index=False,mode="w")
         else:
             print(Fore.RED + "The file you specified as an output already exists. \n Please specify another one or rename your existing file.")
